@@ -1,0 +1,34 @@
+import React from 'react';
+import Layout from '@theme/Layout';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+
+import SupportBanner from '../components/Banner/SupportBanner';
+import BannerData from '../components/Banner/BannerData';
+import SupportPartnerlogo from '../components/SupportPartnerlogo';
+import SupportItem from '../components/Service/SupportItem';
+import Designtab from '../components/Features/Designtab';
+import SupportIntegration from '../components/SupportIntegration';
+import Price from '../components/Price';
+import MarketingTestimonial from '../components/Testimonial/MarketingTestimonial';
+import SupportSubscribe from '../components/SupportSubscribe';
+
+
+export default function Home() {
+  const context = useDocusaurusContext();
+  const {siteConfig = {}} = context;
+  return (
+    <Layout
+      title={`${siteConfig.title}`}
+      description="A Simple, clean, flexible and modulable web framework.">
+        <SupportBanner />
+        <SupportPartnerlogo BannerData={BannerData}/>
+        <SupportItem/>
+        <Designtab/>
+        <SupportIntegration/>
+        <Price/>
+        <MarketingTestimonial BannerData={BannerData}/>
+        <SupportSubscribe/>
+        
+    </Layout>
+  );
+}
