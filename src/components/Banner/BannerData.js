@@ -9,23 +9,8 @@ const BannerData = {
     ClientsLogo: [
         {
             id : 1,
-            image: 'logo_01.png'
-        },
-        {
-            id : 2,
-            image: 'logo_02.png'
-        },
-        {
-            id : 3,
-            image: 'logo_03.png',
-        },
-        {
-            id : 4,
-            image: 'logo_04.png',
-        },
-        {
-            id : 5,
-            image: 'logo_05.png'
+            image: 'jetbrains.png',
+            url: "https://jb.gg/OpenSource"
         }
     ],
     AgencyTestimonial: [

@@ -13,26 +13,22 @@ const SupportBanner =()=>{
         <section className="support_home_area">
             <div className="banner_top">
                 <div className="container">
-                    <section className="row justify-content-center badges-section">
-                        <a href="https://www.npmjs.com/package/@zerooneit/expressive-tea"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@zerooneit/expressive-tea?style=for-the-badge"/></a>
-                        <a href="https://www.npmjs.com/package/@zerooneit/expressive-tea"><img alt="npm" src="https://img.shields.io/npm/dw/@zerooneit/expressive-tea?style=for-the-badge"/></a>
-                        <a href="https://libraries.io/npm/@zerooneit%2Fexpressive-tea"><img alt="Libraries.io dependency status for latest release, scoped npm package" src="https://img.shields.io/librariesio/release/npm/@zerooneit/expressive-tea?style=for-the-badge"/></a>
-                        <a href="https://github.com/Zero-OneiT/expresive-tea/blob/develop/LICENSE"><img alt="NPM" src="https://img.shields.io/npm/l/@zerooneit/expressive-tea?style=for-the-badge"/></a>
-                        <a href="https://snyk.io//test/github/Zero-OneiT/expresive-tea?targetFile=package.json"><img alt="Snyk Vulnerabilities for npm package" src="https://img.shields.io/snyk/vulnerabilities/npm/@zerooneit/expressive-tea?style=for-the-badge"/></a>
-                        <a href="https://github.com/Zero-OneiT/expresive-tea"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Zero-OneiT/expresive-tea?style=for-the-badge"/></a>
-                        <a href="https://github.com/Zero-OneiT/expresive-tea/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Zero-OneiT/expresive-tea?style=for-the-badge"/></a>
-                        <a href="https://libraries.io/npm/@zerooneit%2Fexpressive-tea/sourcerank"><img alt="Libraries.io SourceRank, scoped npm package" src="https://img.shields.io/librariesio/sourcerank/npm/@zerooneit/expressive-tea?style=for-the-badge"/></a>
-                        <a href="https://pkgreview.dev/npm/@zerooneit%2Fexpressive-tea"><img alt="pkgreview.dev Package Ratings" src="https://img.shields.io/pkgreview/rating/npm/@zerooneit/expressive-tea?style=for-the-badge"/></a>
-                        <a href="https://github.com/Zero-OneiT/expresive-tea/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/Zero-Oneit/expresive-tea?style=for-the-badge"/></a>
-                        <a href="https://gitter.im/Zero-OneiT/expresive-tea"><img alt="Gitter" src="https://img.shields.io/gitter/room/zero-oneit/expresive-tea?style=for-the-badge"/></a>
-                        <a href="https://codecov.io/gh/Zero-OneiT/expresive-tea"><img alt="Codecov" src="https://img.shields.io/codecov/c/github/zero-oneit/expresive-tea?label=Test%20coverage&amp;style=for-the-badge"/></a>
-                        <a href="https://travis-ci.org/Zero-OneiT/expresive-tea"><img alt="Travis (.org) branch" src="https://img.shields.io/travis/zero-oneit/expresive-tea/master?style=for-the-badge"/></a>
-                    </section>
+
 
                     <section class="row justify-content-center logo-section">
                         <a href="https://github.com/Zero-OneiT/expresive-tea">
                             <img src={useBaseUrl('/img/logo.png')} alt="Logo" width="350"/>
                         </a>
+                    </section>
+
+                    <section className="row justify-content-center badges-section">
+                        <a href="https://www.npmjs.com/package/@zerooneit/expressive-tea"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@zerooneit/expressive-tea?style=for-the-badge"/></a>
+                        <a href="https://www.npmjs.com/package/@zerooneit/expressive-tea"><img alt="npm" src="https://img.shields.io/npm/dw/@zerooneit/expressive-tea?style=for-the-badge"/></a>
+                        <a href="https://github.com/Zero-OneiT/expresive-tea/blob/develop/LICENSE"><img alt="NPM" src="https://img.shields.io/npm/l/@zerooneit/expressive-tea?style=for-the-badge"/></a>
+                        <a href="https://snyk.io//test/github/Zero-OneiT/expresive-tea?targetFile=package.json"><img alt="Snyk Vulnerabilities for npm package" src="https://img.shields.io/snyk/vulnerabilities/npm/@zerooneit/expressive-tea?style=for-the-badge"/></a>
+                        <a href="https://github.com/Zero-OneiT/expresive-tea"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Zero-OneiT/expresive-tea?style=for-the-badge"/></a>
+                        <a href="https://github.com/Zero-OneiT/expresive-tea/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Zero-OneiT/expresive-tea?style=for-the-badge"/></a>
+                        <a href="https://travis-ci.org/Zero-OneiT/expresive-tea"><img alt="Travis (.org) branch" src="https://img.shields.io/travis/zero-oneit/expresive-tea/master?style=for-the-badge"/></a>
                     </section>
 
                     <section className="row justify-content-center text-section">

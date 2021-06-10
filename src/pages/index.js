@@ -6,7 +6,7 @@ import SupportBanner from '../components/Banner/SupportBanner';
 import BannerData from '../components/Banner/BannerData';
 import SupportPartnerlogo from '../components/SupportPartnerlogo';
 import SupportItem from '../components/Service/SupportItem';
-import Designtab from '../components/Features/Designtab';
+import Sandbox from '../components/Features/Sandbox';
 import SupportIntegration from '../components/SupportIntegration';
 import Price from '../components/Price';
 import MarketingTestimonial from '../components/Testimonial/MarketingTestimonial';
@@ -23,12 +23,7 @@ export default function Home() {
         <SupportBanner />
         <SupportPartnerlogo BannerData={BannerData}/>
         <SupportItem/>
-        <Designtab/>
-        <SupportIntegration/>
-        <Price/>
-        <MarketingTestimonial BannerData={BannerData}/>
-        <SupportSubscribe/>
-        
+        <Sandbox/>
     </Layout>
   );
 }

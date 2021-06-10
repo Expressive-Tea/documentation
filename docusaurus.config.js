@@ -7,15 +7,19 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Zero-OneIT', // Usually your GitHub org/user name.
+  organizationName: 'Expressive-Tea', // Usually your GitHub org/user name.
   projectName: 'expresive-tea', // Usually your repo name.
   themeConfig: {
     defaultMode: 'light',
-    disableSwitch: true,
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: true
+    },
     navbar: {
       title: 'Expressive Tea',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Expressive Tea',
         src: 'img/logo.png',
       },
       items: [
@@ -27,6 +31,12 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
+          to: 'community/',
+          activeBasePath: 'community',
+          label: 'Community',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/Zero-OneIT/expresive-tea',
           label: 'GitHub',
           position: 'right',
@@ -34,9 +44,13 @@ module.exports = {
       ],
     },
     prism: {
-      theme: require('prism-react-renderer/themes/nightOwl')
+      theme: require('./theme-prism')
     },
     footer: {
+      logo: {
+        alt: 'Made in Mexico',
+        src: 'img/made-mexico.png'
+      },
       style: 'dark',
       links: [
         {
@@ -79,7 +93,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © 2019 - ${new Date().getFullYear()} Expressive Tea. Built with Docusaurus.`,
+      copyright: `Copyright © 2019 - ${new Date().getFullYear()} Expressive Tea.`,
     }
   },
   presets: [
@@ -97,10 +111,19 @@ module.exports = {
     ],
   ], 
   plugins: [
-    'docusaurus-plugin-sass'
+    'docusaurus-plugin-sass',
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'community',
+        path: 'community',
+        routeBasePath: 'community',
+        sidebarPath: require.resolve('./sidebarsCommunity.js'),
+        // ... other options
+      },
+    ],
   ],
   clientModules: [
-    'bootstrap/dist/js/bootstrap.min.js',
-    'popper.js'
+    'bootstrap/dist/js/bootstrap.bundle.min.js'
   ]
 };

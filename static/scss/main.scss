@@ -41,7 +41,7 @@ Table of Content:
 =====================================================================*/
 /*====================================================*/
 /*=== fonts ====*/
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Fira+Code:wght@300;400;500;600;700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 /*===== color =====*/
 /*====================================================*/
@@ -17886,22 +17886,22 @@ input[type="text"] {
       -ms-transform: translateY(0);
       transform: translateY(0);
       opacity: 1;
-      -webkit-transition: opacity 1s 1.5s linear , -webkit-transform 1s 1.5s linear;
-      transition: opacity 1s 1.5s linear , -webkit-transform 1s 1.5s linear;
-      -o-transition: transform 1s 1.5s linear , opacity 1s 1.5s linear;
-      transition: transform 1s 1.5s linear , opacity 1s 1.5s linear;
-      transition: transform 1s 1.5s linear , opacity 1s 1.5s linear , -webkit-transform 1s 1.5s linear;
+      -webkit-transition: opacity 1s 1.5s linear, -webkit-transform 1s 1.5s linear;
+      transition: opacity 1s 1.5s linear, -webkit-transform 1s 1.5s linear;
+      -o-transition: transform 1s 1.5s linear, opacity 1s 1.5s linear;
+      transition: transform 1s 1.5s linear, opacity 1s 1.5s linear;
+      transition: transform 1s 1.5s linear, opacity 1s 1.5s linear, -webkit-transform 1s 1.5s linear;
     }
 
     .btn_get {
       -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
       transform: translateY(0);
-      -webkit-transition: opacity 1s 1.7s linear,background 0.2s linear , -webkit-transform 1s 1.8s linear;
-      transition: opacity 1s 1.7s linear,background 0.2s linear , -webkit-transform 1s 1.8s linear;
-      -o-transition: transform 1s 1.8s linear , opacity 1s 1.7s linear,background 0.2s linear;
-      transition: transform 1s 1.8s linear , opacity 1s 1.7s linear,background 0.2s linear;
-      transition: transform 1s 1.8s linear , opacity 1s 1.7s linear,background 0.2s linear , -webkit-transform 1s 1.8s linear;
+      -webkit-transition: opacity 1s 1.7s linear, background 0.2s linear, -webkit-transform 1s 1.8s linear;
+      transition: opacity 1s 1.7s linear, background 0.2s linear, -webkit-transform 1s 1.8s linear;
+      -o-transition: transform 1s 1.8s linear, opacity 1s 1.7s linear, background 0.2s linear;
+      transition: transform 1s 1.8s linear, opacity 1s 1.7s linear, background 0.2s linear;
+      transition: transform 1s 1.8s linear, opacity 1s 1.7s linear, background 0.2s linear, -webkit-transform 1s 1.8s linear;
       opacity: 1;
     }
   }
@@ -21060,13 +21060,20 @@ a .h_head:hover {
 
   .banner_top {
     padding-top: 40px;
+
     .container {
       section {
         &.badges-section {
           line-height: 2.5;
-          a { margin: 0 5px;}
+
+          a {
+            margin: 0 5px;
+          }
         }
-        &.logo-section { padding: 20px 0;}
+
+        &.logo-section {
+          padding: 20px 0;
+        }
       }
     }
 
@@ -21077,12 +21084,12 @@ a .h_head:hover {
         box-shadow: none;
         border-color: #e1e1e1;
         height: 60px;
-  
+
         &.placeholder, &:-moz-placeholder, &::-moz-placeholder, &::-webkit-input-placeholder {
           color: #999999;
         }
       }
-  
+
       .btn_submit {
         border-radius: 45px;
       }
@@ -21122,6 +21129,10 @@ a .h_head:hover {
     font-weight: 500;
     color: #051441;
     margin: 36px 0px 25px;
+  }
+
+  .support_image {
+    height: 200px;
   }
 
   .software_banner_btn {
@@ -22089,6 +22100,11 @@ a .h_head:hover {
   }
 }
 
+/*============ sandbox_area css ============*/
+.sandbox_area {
+
+}
+
 /*============ home_analytics_banner_area css ============*/
 
 .home_analytics_banner_area {
@@ -22655,7 +22671,6 @@ a .h_head:hover {
 /*====================================================*/
 /*====================================================*/
 /*============== footer_area css ==============*/
-
 .f_bg {
   background: #eff2f9;
   -webkit-box-shadow: 0px -1px 0px 0px rgba(231, 236, 246, 0.004);
@@ -23755,8 +23770,8 @@ a .h_head:hover {
       position: absolute;
       bottom: 0;
       left: 30%;
-      -webkit-animation: myfirst 22s  linear infinite;
-      animation: myfirst 22s  linear infinite;
+      -webkit-animation: myfirst 22s linear infinite;
+      animation: myfirst 22s linear infinite;
     }
 
     .footer_bg_two {
@@ -23766,8 +23781,8 @@ a .h_head:hover {
       bottom: 0;
       left: 38%;
       position: absolute;
-      -webkit-animation: myfirst 30s  linear infinite;
-      animation: myfirst 30s  linear infinite;
+      -webkit-animation: myfirst 30s linear infinite;
+      animation: myfirst 30s linear infinite;
     }
   }
 }
