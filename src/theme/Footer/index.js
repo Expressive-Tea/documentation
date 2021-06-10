@@ -56,20 +56,6 @@ function Footer() {
             })}>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4">
-                        {logo && (logo.src || logo.srcDark) && (
-                            <div className="row justify-content-center">
-                                {logo.href ? (
-                                    <Link href={logo.href} className={styles.footerLogoLink}>
-                                        <FooterLogo alt={logo.alt} sources={sources}/>
-                                    </Link>
-                                ) : (
-                                    <FooterLogo alt={logo.alt} sources={sources}/>
-                                )}
-                            </div>
-
-                            )}
-                    </div>
                     <div className="col">
                         {links && links.length > 0 && (
                             <div className="row footer__links">

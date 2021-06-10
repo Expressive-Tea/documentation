@@ -29,7 +29,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {href: 'https://expressive-tea.io/blog/', label: 'Blog', position: 'left'},
         {
           to: 'community/',
           activeBasePath: 'community',
@@ -37,7 +37,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/Zero-OneIT/expresive-tea',
+          href: 'https://github.com/Expressive-Tea/expresive-tea',
           label: 'GitHub',
           position: 'right',
         },

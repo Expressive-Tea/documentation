@@ -5,16 +5,16 @@ const Team =()=>{
     return(
         <section className="experts_team_area sec_pad">
             <div className="container">
-                <Sectitle sClass="sec_title text-center mb_70" Title="The Experts Team" tClass="t_color3" TitleP="Why I say old chap that is spiffing barney, nancy boy bleeder chimney pot richard cheers the little rotter.!"/>
+                <Sectitle sClass="sec_title text-center mb_70" Title="Support Team" tClass="t_color3" TitleP="Expressive Tea would never be what it is today without huge help from these pals who have joining on the planning of the new features and found issues on the current version of Expressive Tea. With their guide and knowledge this project grows everyday."/>
                 <div className="row justify-content-center">
                     <div className="col-lg-3 col-sm-6">
-                        <Teamitem teamImage="team_01.jpg" memberN="Adrian Mayoral" memberd="web designer"/>
+                        <Teamitem teamImageUrl="https://avatars1.githubusercontent.com/u/523047?s=460&u=bd5d781046f4d8da96237e5e55fa480daf029c0b&v=4" memberN="Adrian Mayoral" memberd="Developer"/>
                     </div>
                     <div className="col-lg-3 col-sm-6">
-                        <Teamitem teamImage="team_02.jpg" memberN="Gabriel Jaramillo" memberd="UI/UX designer"/>
+                        <Teamitem teamImageUrl="https://avatars3.githubusercontent.com/u/13803801?s=460&u=11c8d5015358b888b36c034f39fb8e31b3590630&v=4" memberN="Gabriel Jaramillo" memberd="Developer"/>
                     </div>
                     <div className="col-lg-3 col-sm-6">
-                        <Teamitem teamImage="team_03.jpg" memberN="Dylan Meringue" memberd="web designer"/>
+                        <Teamitem teamImageUrl="https://avatars1.githubusercontent.com/u/7247476?s=460&v=4" memberN="Fernando Gomez" memberd="Developer"/>
                     </div>
                 </div>
             </div>
