@@ -165,3 +165,55 @@
 .navbar__brand {
   width: 180px;
 }
+//f09b
+.navbar__link {
+  &.nav-icon {
+    font-size: 22px;
+    font-family: 'Font Awesome 5 Brands';
+
+    &.github {
+      &:before {
+        content: "\f09b"; }
+    }
+
+    &.twitter {
+      &:before {
+        content: "\f099"; }
+    }
+    &.facebook {
+      &:before {
+        content: "\f09a"; }
+    }
+
+  }
+
+}
+.iconExternalLink_node_modules-\@docusaurus-theme-classic-lib-next-theme-IconExternalLink-styles-module {
+  display: none;
+}
+
+html[data-theme='dark'] {
+  --ifm-color-emphasis-0: var(--ifm-color-gray-0);
+  --ifm-color-emphasis-100: var(--ifm-color-gray-100);
+  --ifm-color-emphasis-200: var(--ifm-color-gray-200);
+  --ifm-color-emphasis-300: var(--ifm-color-gray-300);
+  --ifm-color-emphasis-400: var(--ifm-color-gray-400);
+  --ifm-color-emphasis-500: var(--ifm-color-gray-500);
+  --ifm-color-emphasis-600: var(--ifm-color-gray-600);
+  --ifm-color-emphasis-700: var(--ifm-color-gray-700);
+  --ifm-color-emphasis-800: var(--ifm-color-gray-800);
+  --ifm-color-emphasis-900: var(--ifm-color-gray-900);
+  --ifm-color-emphasis-1000: var(--ifm-color-gray-1000);
+
+  --ifm-background-color: transparent; /* Body's background. */
+  --ifm-background-surface-color: var(--ifm-color-content-inverse);
+
+  --ifm-hover-overlay: rgba(0, 0, 0, 0.05);
+
+  --ifm-color-content-secondary: rgba(255, 255, 255, 1);
+
+  --ifm-breadcrumb-separator-filter: invert(64%) sepia(11%) saturate(0%)
+  hue-rotate(149deg) brightness(99%) contrast(95%);
+
+  --ifm-code-background: hsla(0, 0%, 100%, 0.1);
+}

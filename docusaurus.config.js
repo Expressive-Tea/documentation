@@ -38,8 +38,21 @@ module.exports = {
         },
         {
           href: 'https://github.com/Expressive-Tea/expresive-tea',
-          label: 'GitHub',
+          label: ' ',
           position: 'right',
+          className: 'nav-icon github'
+        },
+        {
+          href: 'https://twitter.com/expressive_tea',
+          label: ' ',
+          position: 'right',
+          className: 'nav-icon twitter'
+        },
+        {
+          href: 'https://www.facebook.com/expressivetea',
+          label: ' ',
+          position: 'right',
+          className: 'nav-icon facebook'
         },
       ],
     },

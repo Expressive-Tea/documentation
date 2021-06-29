@@ -108,8 +108,8 @@ function Footer() {
                     </div>
                     <div className="col-lg-4 col-md-3 col-sm-6">
                         <div className="f_social_icon_two text-center">
-                            <a href="#"><i className="ti-twitter-alt"></i></a>
-                            <a href="#"><i className="ti-github"></i></a>
+                            <a href="https://twitter.com/expressive_tea"><i className="ti-twitter-alt"></i></a>
+                            <a href="https://github.com/Expressive-Tea/expresive-tea"><i className="ti-github"></i></a>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-12">

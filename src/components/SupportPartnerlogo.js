@@ -15,7 +15,7 @@ class SupportPartnerlogo extends Component {
                                 return(
                                     <Reveal key={item.id} effect="fadeInLeft" duration={1500}>
                                         <div className="logo_item">
-                                            <a href={item.url ? item.url : "/#"}><img src={require(`../../static/img/${item.image}`).default} alt="" height="150px"/></a>
+                                            <a href={item.url ? item.url : "/#"}><img src={require(`../../static/img/${item.image}`).default} alt="" height="80px"/></a>
                                         </div>
                                     </Reveal>
                                 )

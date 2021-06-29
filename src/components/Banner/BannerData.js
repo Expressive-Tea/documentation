@@ -9,6 +9,11 @@ const BannerData = {
     ClientsLogo: [
         {
             id : 1,
+            image: 'zerooneit.png',
+            url: "https://zero-oneit.com"
+        },
+        {
+            id : 2,
             image: 'jetbrains.png',
             url: "https://jb.gg/OpenSource"
         }
