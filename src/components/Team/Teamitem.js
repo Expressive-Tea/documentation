@@ -3,7 +3,7 @@ import FooterData from '../Footer/FooterData';
 
 class Teamitem extends Component {
     render(){
-        var {teamImage, memberN, memberd, teamImageUrl}= this.props;
+        var {teamImage, memberN, memberd, teamImageUrl, socialNetworks}= this.props;
         return(
             <div className="ex_team_item">
                 {
@@ -28,7 +28,7 @@ class Teamitem extends Component {
                     <div className="n_hover_content">
                         <ul className="list-unstyled">
                             {
-                                FooterData.socialIcon.map(item=>{
+                                (socialNetworks || []).map(item=>{
                                     return(
                                         <li key={item.id}><a href={item.url}><i className={`${item.icon}`}></i></a></li>
                                     )

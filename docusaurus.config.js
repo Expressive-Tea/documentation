@@ -70,8 +70,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Getting Started',
+              label: 'About This Project',
               to: 'docs/',
+            },
+            {
+              label: 'Getting Started',
+              to: 'docs/getting-started',
             },
           ],
         },
@@ -80,15 +84,11 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'http://stackoverflow.com/tags/expressive-tea',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/expressive_tea',
             },
           ],
         },
@@ -96,12 +96,24 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Our Team',
+              to: 'community/team',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Support Us',
+              to: 'community/support',
+            },
+            {
+              label: 'Blog',
+              href: 'https://expressive-tea.io/blog/',
+            },
+            {
+              label: 'Contribute',
+              to: 'community/contributing',
+            },
+            {
+              label: 'Source Code',
+              href: 'https://github.com/Zero-OneiT/expresive-tea',
             },
           ],
         },
