@@ -90,6 +90,14 @@ module.exports = {
               label: 'Twitter',
               href: 'https://twitter.com/expressive_tea',
             },
+            {
+              label: 'Gitter',
+              href: 'https://gitter.im/Zero-OneiT/expresive-tea',
+            },
+            {
+              label: 'Mail List',
+              href: 'https://groups.google.com/forum/#!forum/expressive-tea/',
+            },
           ],
         },
         {
@@ -110,11 +118,24 @@ module.exports = {
             {
               label: 'Contribute',
               to: 'community/contributing',
+            }
+          ],
+        },
+        {
+          title: 'Help Us',
+          items: [
+            {
+              label: 'Report an Issue',
+              href: 'https://github.com/Zero-OneiT/expresive-tea',
+            },
+            {
+              label: 'Ask a Feature',
+              href: 'https://github.com/Zero-OneiT/expresive-tea',
             },
             {
               label: 'Source Code',
               href: 'https://github.com/Zero-OneiT/expresive-tea',
-            },
+            }
           ],
         },
       ],

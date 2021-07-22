@@ -63,6 +63,16 @@
   }
 }
 
+.mdx-page {
+  font-weight: 400;
+  text-align: justify;
+
+  .table-of-contents__left-border {
+    text-align: initial;
+    font-weight: 300;
+  }
+}
+
 .doc-page {
   font-weight: 400;
 
@@ -210,7 +220,7 @@ html[data-theme='dark'] {
 
   --ifm-hover-overlay: rgba(0, 0, 0, 0.05);
 
-  --ifm-color-content-secondary: rgba(255, 255, 255, 1);
+  --ifm-color-content-secondary: #525860;
 
   --ifm-breadcrumb-separator-filter: invert(64%) sepia(11%) saturate(0%)
   hue-rotate(149deg) brightness(99%) contrast(95%);
