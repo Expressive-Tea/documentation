@@ -335,3 +335,7 @@ export const dependencyInjectionDecorators = {
         }
     ]
 }
+
+export const proxyDecorators = {
+    proxyContainer: []
+}

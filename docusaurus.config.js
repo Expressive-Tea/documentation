@@ -170,6 +170,5 @@ module.exports = {
     ],
   ],
   clientModules: [
-    'bootstrap/dist/js/bootstrap.bundle.min.js'
   ]
 };
