@@ -17,8 +17,18 @@ Express it is working as **Bring Your Own Architecture**.
 
 ### Installation
 
+#### Stable Version
 ```shell
  npm i --save @zerooneit/expressive-tea
+- or -
+ npm i --save @zerooneit/expressive-tea@latest
+```
+
+#### Next Features
+Expressive Tea's has been working on next features, for now this new features are in beta development and you wil be able to use them by use the next command:
+
+```shell
+ npm i --save @zerooneit/expressive-tea@next
 ```
 
 ### Setting up Typescript

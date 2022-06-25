@@ -9,22 +9,22 @@ import PropertyAnnotations from '../../src/components/Documentation/PropertyAnno
 import ArgumentAnnotations from '../../src/components/Documentation/ArgumentAnnotations';
 import PropertyTypes from '../../src/components/Documentation/PropertyTypes';
 import ParametersTable from '../../src/components/Documentation/ParametersTable';
-import {serverDecorators} from '../../src/components/Documentation/data/arguments-settings';
+import {serverDecorators, proxyDecorators} from '../../src/components/Documentation/data/arguments-settings';
 
 
-## @ProxyContainer(<ArgumentAnnotations args={serverDecorators.plug}/>)
+## @ProxyContainer(<ArgumentAnnotations args={proxyDecorators.proxyContainer}/>)
 Plug Class Decorator create a simple plugin to execute in one of the public stages defined on **BOOT_STAGES**, might be 
 useful to attach a simple Express Server configuration.
 
-<ParametersTable args={serverDecorators.plug} />
+<ParametersTable args={proxyDecorators.proxyContainer} />
 
 **Example**
 ```typescript
-@Plug(BOOT_STAGES.BOOT_DEPENDENCIES, 'test', s => console.log, true)
-class Example extends Boot {}
+@ProxyContainer('/api/user', 'https://example.com/user/')
+class UserProxy{}
 ```
 
-## @Pour(<ArgumentAnnotations args={serverDecorators.pour}/>)
+## @ProxyProperty(<ArgumentAnnotations args={serverDecorators.pour}/>)
 
 From version **1.1.0** Expressive Tea allow using external plugins by installing the node package `@expressive-tea/plugin`. 
 This plugin engine allows creates more complex plugin configuration and provision since allowing multi Boot Stage configuration 
@@ -41,7 +41,7 @@ In order to use this you will need to user the @expressive-tea/plugin package yo
 class Example extends Boot {}
 ```
 
-## @ServerSettings(<ArgumentAnnotations args={serverDecorators.serverSettings}/>)
+## @ProxyOption(<ArgumentAnnotations args={serverDecorators.serverSettings}/>)
 
 **Server Settings Singleton Class** Decorator to Provide the Configuration to the server or another component on the projects,
 is working as a container to store user and library settings.

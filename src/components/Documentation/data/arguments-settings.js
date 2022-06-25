@@ -337,5 +337,16 @@ export const dependencyInjectionDecorators = {
 }
 
 export const proxyDecorators = {
-    proxyContainer: []
+    proxyContainer: [
+        {
+            name: 'endpoint',
+            type: { name: 'String'},
+            description: "Endpoint path where proxy will be listening."
+        },
+        {
+            name: 'url',
+            type: { name: 'String'},
+            description: "URL where proxy will be getting the data."
+        }
+    ]
 }

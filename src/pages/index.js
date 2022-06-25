@@ -7,10 +7,7 @@ import BannerData from '../components/Banner/BannerData';
 import SupportPartnerlogo from '../components/SupportPartnerlogo';
 import SupportItem from '../components/Service/SupportItem';
 import Sandbox from '../components/Features/Sandbox';
-import SupportIntegration from '../components/SupportIntegration';
-import Price from '../components/Price';
-import MarketingTestimonial from '../components/Testimonial/MarketingTestimonial';
-import SupportSubscribe from '../components/SupportSubscribe';
+import Feature from '../components/Feature/Feature';
 
 
 export default function Home() {
@@ -21,6 +18,7 @@ export default function Home() {
       title={`${siteConfig.title}`}
       description="A Simple, clean, flexible and modulable web framework.">
         <SupportBanner />
+        <Feature />
         <SupportPartnerlogo BannerData={BannerData}/>
         <SupportItem/>
         <Sandbox/>

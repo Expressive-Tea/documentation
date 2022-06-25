@@ -1,0 +1,15 @@
+.feature-home {
+    padding: 50px 0;
+    
+    .feature-item {
+        border-radius: 15px;
+        background: #fafafe;
+        min-height: 200px;
+        padding: 30px;
+        display: flex;
+    }
+
+    .feature-column {
+        align-self: center;
+    }
+}

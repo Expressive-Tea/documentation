@@ -57,7 +57,8 @@ module.exports = {
       ],
     },
     prism: {
-      theme: require('./theme-prism')
+      defaultLanguage: "typescript",
+      theme: require("prism-react-renderer/themes/dracula")
     },
     footer: {
       logo: {
@@ -139,7 +140,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © 2019 - ${new Date().getFullYear()} Expressive Tea.`,
+      copyright: `Copyright © 2019 - ${new Date().getFullYear()} Expressive Tea - Built on Docusaurus`,
     }
   },
   presets: [
