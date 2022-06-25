@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const ChatBanner = () => {
   return (
@@ -12,7 +12,7 @@ const ChatBanner = () => {
       <img
         className="p_absoulte left wow fadeInLeft"
         data-wow-delay="0.2s"
-        src={require('../../img/home-chat/left_leaf.png')} 
+        src={require('../../img/home-chat/left_leaf.png')}
         alt=""
       />
       <img
@@ -26,15 +26,12 @@ const ChatBanner = () => {
           <div className="col-lg-6">
             <div className="chat_banner_content">
               <div className="c_tag wow fadeInUp">
-                <img src={require("../../img/home-chat/live_chat.png")} alt="" /> Live chat
+                <img src={require('../../img/home-chat/live_chat.png')} alt="" /> Live chat
               </div>
               <h2 className="wow fadeInUp" data-wow-delay="0.2s">
                 Engage your website visitors using <strong>Live Chat</strong>
               </h2>
-              <div
-                className="text-center pr_100 wow fadeInUp"
-                data-wow-delay="0.4s"
-              >
+              <div className="text-center pr_100 wow fadeInUp" data-wow-delay="0.4s">
                 <a href="/#" className="chat_btn btn_hover">
                   Live chat for free
                 </a>

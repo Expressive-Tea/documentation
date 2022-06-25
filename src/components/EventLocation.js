@@ -1,5 +1,5 @@
-import React from "react";
-import Map from "./Map";
+import React from 'react';
+import Map from './Map';
 const EventLocation = () => {
   return (
     <section className="event_location_area">

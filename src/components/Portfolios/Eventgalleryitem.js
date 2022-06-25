@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class Eventgalleryitem extends Component {
   render() {
@@ -6,7 +6,7 @@ class Eventgalleryitem extends Component {
     return (
       <div className="col-lg-2 col-sm-4 portfolio_item br ux p0">
         <div className="portfolio_img">
-          <img src={require("../../img/home-event/" + image)} alt="" />
+          <img src={require('../../img/home-event/' + image)} alt="" />
           <div className="hover_content">
             <div className="portfolio-description leaf">
               <a href="work-default.html" className="portfolio-title">

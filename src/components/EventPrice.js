@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 const EventPrice = () => {
   return (
     <section className="event_price_area sec_pad">

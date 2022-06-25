@@ -2,8 +2,8 @@
 title: Privacy Policy
 slug: /privacy-policy
 ---
-Privacy Policy
-==============
+
+# Privacy Policy
 
 **Effective Date: 22-07-2021**
 
@@ -13,8 +13,7 @@ It is Expressive Tea's policy to respect your privacy regarding any information 
 
 This Privacy Policy, together with the Terms of service posted on our Website, set forth the general rules and policies governing your use of our Website. Depending on your activities when visiting our Website, you may be required to agree to additional terms of service.
 
-Contents
---------
+## Contents
 
 Click below to jump to any section of this privacy policy
 
@@ -25,8 +24,7 @@ Click below to jump to any section of this privacy policy
 5.  [**Privacy Policy Changes**](#Changes)
 6.  [**Contact Information & Credit**](#Credit)
 
-1\. Website Visitors
---------------------
+## 1\. Website Visitors
 
 Like most website operators, Expressive Tea collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Expressive Tea's purpose in collecting non-personally identifying information is to better understand how Expressive Tea's visitors use its website. From time to time, Expressive Tea may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website.
 
@@ -34,15 +32,13 @@ Expressive Tea also collects potentially personally-identifying information like
 
 [Back to table of contents](#tableofcontents)
 
-2\. Security
-------------
+## 2\. Security
 
 The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.
 
 [Back to table of contents](#tableofcontents)
 
-3\. Links To External Sites
----------------------------
+## 3\. Links To External Sites
 
 Our Service may contain links to external sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy and terms of service of every site you visit.
 
@@ -50,8 +46,7 @@ We have no control over, and assume no responsibility for the content, privacy p
 
 [Back to table of contents](#tableofcontents)
 
-4\. Cookies
------------
+## 4\. Cookies
 
 To enrich and perfect your online experience, Expressive Tea uses "Cookies", similar technologies and services provided by others to display personalized content, appropriate advertising and store your preferences on your computer.
 
@@ -61,16 +56,14 @@ By continuing to navigate our website without changing your cookie settings, you
 
 [Back to table of contents](#tableofcontents)
 
-5\. Privacy Policy Changes
---------------------------
+## 5\. Privacy Policy Changes
 
 Although most changes are likely to be minor, Expressive Tea may change its Privacy Policy from time to time, and in Expressive Tea's sole discretion. Expressive Tea encourages visitors to frequently check this page for any changes to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.
 
 [Back to table of contents](#tableofcontents)
 
-6\. Contact Information & Credit
---------------------------------
+## 6\. Contact Information & Credit
 
-This privacy policy was created at [privacyterms.io privacy policy generator](https://privacyterms.io/privacy-policy-generator/ "Privacy policy generator"). If you have any questions about our Privacy Policy, please contact us via [email](mailto:admin@expressive-tea.io) or [phone](tel:).
+This privacy policy was created at [privacyterms.io privacy policy generator](https://privacyterms.io/privacy-policy-generator/ 'Privacy policy generator'). If you have any questions about our Privacy Policy, please contact us via [email](mailto:admin@expressive-tea.io) or [phone](tel:).
 
 [Back to table of contents](#tableofcontents)

@@ -1,5 +1,5 @@
-import React from "react";
-import EventSponserLogo from "./EventSponserLogo";
+import React from 'react';
+import EventSponserLogo from './EventSponserLogo';
 
 const EventSponser = () => {
   return (
@@ -57,11 +57,7 @@ const EventSponser = () => {
             </div>
           </div>
           <div className="event_sponser_item text-center">
-            <a
-              className="event_btn btn_hover wow fadeInLeft"
-              data-wow-delay="0.9s"
-              href="/#"
-            >
+            <a className="event_btn btn_hover wow fadeInLeft" data-wow-delay="0.9s" href="/#">
               More Sponsors
             </a>
             <a

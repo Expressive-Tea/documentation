@@ -20,21 +20,21 @@ module.exports = {
       title: 'Expressive Tea',
       logo: {
         alt: 'Expressive Tea',
-        src: 'img/logo.png',
+        src: 'img/logo.png'
       },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
-          position: 'left',
+          position: 'left'
         },
-        {href: 'https://expressive-tea.io/blog/', label: 'Blog', position: 'left'},
+        { href: 'https://expressive-tea.io/blog/', label: 'Blog', position: 'left' },
         {
           to: 'community/',
           activeBasePath: 'community',
           label: 'Community',
-          position: 'left',
+          position: 'left'
         },
         {
           href: 'https://github.com/Expressive-Tea/expresive-tea',
@@ -53,12 +53,12 @@ module.exports = {
           label: ' ',
           position: 'right',
           className: 'nav-icon facebook'
-        },
-      ],
+        }
+      ]
     },
     prism: {
-      defaultLanguage: "typescript",
-      theme: require("prism-react-renderer/themes/dracula")
+      defaultLanguage: 'typescript',
+      theme: require('prism-react-renderer/themes/dracula')
     },
     footer: {
       logo: {
@@ -72,75 +72,75 @@ module.exports = {
           items: [
             {
               label: 'About This Project',
-              to: 'docs/',
+              to: 'docs/'
             },
             {
               label: 'Getting Started',
-              to: 'docs/getting-started',
-            },
-          ],
+              to: 'docs/getting-started'
+            }
+          ]
         },
         {
           title: 'Community',
           items: [
             {
               label: 'Stack Overflow',
-              href: 'http://stackoverflow.com/tags/expressive-tea',
+              href: 'http://stackoverflow.com/tags/expressive-tea'
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/expressive_tea',
+              href: 'https://twitter.com/expressive_tea'
             },
             {
               label: 'Gitter',
-              href: 'https://gitter.im/Zero-OneiT/expresive-tea',
+              href: 'https://gitter.im/Zero-OneiT/expresive-tea'
             },
             {
               label: 'Mail List',
-              href: 'https://groups.google.com/forum/#!forum/expressive-tea/',
-            },
-          ],
+              href: 'https://groups.google.com/forum/#!forum/expressive-tea/'
+            }
+          ]
         },
         {
           title: 'More',
           items: [
             {
               label: 'Our Team',
-              to: 'community/team',
+              to: 'community/team'
             },
             {
               label: 'Support Us',
-              to: 'community/support',
+              to: 'community/support'
             },
             {
               label: 'Blog',
-              href: 'https://expressive-tea.io/blog/',
+              href: 'https://expressive-tea.io/blog/'
             },
             {
               label: 'Contribute',
-              to: 'community/contributing',
+              to: 'community/contributing'
             }
-          ],
+          ]
         },
         {
           title: 'Help Us',
           items: [
             {
               label: 'Report an Issue',
-              href: 'https://github.com/Zero-OneiT/expresive-tea',
+              href: 'https://github.com/Zero-OneiT/expresive-tea'
             },
             {
               label: 'Ask a Feature',
-              href: 'https://github.com/Zero-OneiT/expresive-tea',
+              href: 'https://github.com/Zero-OneiT/expresive-tea'
             },
             {
               label: 'Source Code',
-              href: 'https://github.com/Zero-OneiT/expresive-tea',
+              href: 'https://github.com/Zero-OneiT/expresive-tea'
             }
-          ],
-        },
+          ]
+        }
       ],
-      copyright: `Copyright © 2019 - ${new Date().getFullYear()} Expressive Tea - Built on Docusaurus`,
+      copyright: `Copyright © 2019 - ${new Date().getFullYear()} Expressive Tea - Built on Docusaurus`
     }
   },
   presets: [
@@ -152,11 +152,11 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js')
         },
         theme: {
-          customCss: require.resolve('./static/scss/style.scss'),
+          customCss: require.resolve('./static/scss/style.scss')
         }
-      },
-    ],
-  ], 
+      }
+    ]
+  ],
   plugins: [
     'docusaurus-plugin-sass',
     [
@@ -165,11 +165,10 @@ module.exports = {
         id: 'community',
         path: 'community',
         routeBasePath: 'community',
-        sidebarPath: require.resolve('./sidebarsCommunity.js'),
+        sidebarPath: require.resolve('./sidebarsCommunity.js')
         // ... other options
-      },
-    ],
+      }
+    ]
   ],
-  clientModules: [
-  ]
+  clientModules: []
 };

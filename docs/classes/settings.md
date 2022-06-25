@@ -4,12 +4,12 @@ slug: /classes/settings
 sidebar_label: Settings
 sidebar_position: 2
 ---
+
 import PropertyAnnotations from '../../src/components/Documentation/PropertyAnnotations';
 import ArgumentAnnotations from '../../src/components/Documentation/ArgumentAnnotations';
 import PropertyTypes from '../../src/components/Documentation/PropertyTypes';
 import ParametersTable from '../../src/components/Documentation/ParametersTable';
 import args from '../../src/components/Documentation/data/arguments-settings';
-
 
 **Settings Singleton Class** to allow store server, application and plugins settings during design mode. Can be used on
 run stage except by the port setting or any other in-design properties everything can be changed and reflected immediately,
@@ -17,20 +17,25 @@ the fact that some properties will be ignored after design stage is because is u
 settings or some initialization parameters.
 
 ## <PropertyAnnotations isConstructor="true"/> Settings(<ArgumentAnnotations args={args.constructor}/>) <PropertyTypes returns="Settings" typeRef="#instance"/>
+
 Constructor is returning a **Singleton** instance of the class, is that instance is not exists this will create it automatically
 which it will maintain that reference itself through all the runtime cycle, or you explicit reset it.
 
 <ParametersTable args={args.constructor} />
 
 ## Properties
+
 ### <PropertyAnnotations isolationType="private" isStatic="true"/> instance <PropertyTypes type="Settings" typeRef="/docs/classes/settings#settings"/>
+
 Singleton Instance Reference.
 
 ### <PropertyAnnotations isolationType="private"/> options <PropertyTypes type="ExpressiveTeaServerProps" typeRef="../interfaces-types/interfaces#expressiveteaserverprops"/>
+
 Server configuration options storage.
 
 ## Methods
-### <PropertyAnnotations isolationType="public" isStatic="true"/> reset()  <PropertyTypes returns="void"/>
+
+### <PropertyAnnotations isolationType="public" isStatic="true"/> reset() <PropertyTypes returns="void"/>
 
 Reset Singleton instance to the default values, all changes will be erased is not recommendable to use it multiple times
 since all your options will be lost, also, unless you have an option how to recover this We **STRONGLY** not recommended to use often.
@@ -60,9 +65,8 @@ options it won't affect any functionality as the application already started.
 
 <ParametersTable args={args.setMethod} />
 
-### <PropertyAnnotations isolationType="public"/> merge(<ArgumentAnnotations args={args.constructor}/>)  <PropertyTypes returns="void"/>
+### <PropertyAnnotations isolationType="public"/> merge(<ArgumentAnnotations args={args.constructor}/>) <PropertyTypes returns="void"/>
 
 This merges multiple options at the same time, this can edit or create the options.
 
 <ParametersTable args={args.constructor} />
-

@@ -17,21 +17,21 @@ Main goal is making uncomplicated creation of server-side applications, module o
 
 ### Features
 
-*   Easy Setting up and start up of webserver.
-*   Extends and configuration with plugins and well-defined boot stages.
-*   Modules are not hard dependencies and can be shareable between projects.
-*   Declare Server Middlewares configuration as hard or soft dependency at server level.
-*   Dependency Injection is available for controllers as providers declared in modules using InversifyJs.
-*   Declarative Router on Controllers.
-*   Declarative Verbs and Middlewares under module and verb level.
-*   Declarative Exceptions for a better Error Handling.
+- Easy Setting up and start up of webserver.
+- Extends and configuration with plugins and well-defined boot stages.
+- Modules are not hard dependencies and can be shareable between projects.
+- Declare Server Middlewares configuration as hard or soft dependency at server level.
+- Dependency Injection is available for controllers as providers declared in modules using InversifyJs.
+- Declarative Router on Controllers.
+- Declarative Verbs and Middlewares under module and verb level.
+- Declarative Exceptions for a better Error Handling.
 
 ### Built With
 
-*   [Express](https://github.com/expressjs/express) - The web framework used
-*   [Typescript](https://www.typescriptlang.org/) - Main Language
-*   [Inversify](https://github.com/inversify/InversifyJS/) - Used for dependency Injection
-*   [Reflect Metadata](https://github.com/rbuckton/reflect-metadata) - Used to get code metadata.
+- [Express](https://github.com/expressjs/express) - The web framework used
+- [Typescript](https://www.typescriptlang.org/) - Main Language
+- [Inversify](https://github.com/inversify/InversifyJS/) - Used for dependency Injection
+- [Reflect Metadata](https://github.com/rbuckton/reflect-metadata) - Used to get code metadata.
 
 ## License
 

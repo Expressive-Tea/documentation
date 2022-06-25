@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class ScheduleTab extends Component {
   render() {
@@ -67,10 +67,7 @@ class ScheduleTab extends Component {
               >
                 <div className="media">
                   <div className="media-left">
-                    <img
-                      src={require("../img/home-event/conference.jpg")}
-                      alt=""
-                    />
+                    <img src={require('../img/home-event/conference.jpg')} alt="" />
                     <a href="/#">
                       <i className="icon_clock_alt"></i>10:30 - 12:30 AM
                     </a>
@@ -84,18 +81,14 @@ class ScheduleTab extends Component {
                       by <a href="/#">Hanson Deck</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly
+                      gosh do one, is tosser car boot knees.
                     </p>
                   </div>
                 </div>
                 <div className="media">
                   <div className="media-left">
-                    <img
-                      src={require("../img/home-event/digital.jpg")}
-                      alt=""
-                    />
+                    <img src={require('../img/home-event/digital.jpg')} alt="" />
                     <a href="/#">
                       <i className="icon_clock_alt"></i>10:30 - 12:30 AM
                     </a>
@@ -109,18 +102,14 @@ class ScheduleTab extends Component {
                       by <a href="/#">Hanson Deck</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly
+                      gosh do one, is tosser car boot knees.
                     </p>
                   </div>
                 </div>
                 <div className="media">
                   <div className="media-left">
-                    <img
-                      src={require("../img/home-event/marketing.jpg")}
-                      alt=""
-                    />
+                    <img src={require('../img/home-event/marketing.jpg')} alt="" />
                     <a href="/#">
                       <i className="icon_clock_alt"></i>10:30 - 12:30 AM
                     </a>
@@ -134,18 +123,14 @@ class ScheduleTab extends Component {
                       by <a href="/#">Hanson Deck</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly
+                      gosh do one, is tosser car boot knees.
                     </p>
                   </div>
                 </div>
                 <div className="media">
                   <div className="media-left">
-                    <img
-                      src={require("../img/home-event/conference.jpg")}
-                      alt=""
-                    />
+                    <img src={require('../img/home-event/conference.jpg')} alt="" />
                     <a href="/#">
                       <i className="icon_clock_alt"></i>10:30 - 12:30 AM
                     </a>
@@ -159,25 +144,16 @@ class ScheduleTab extends Component {
                       by <a href="/#">Hanson Deck</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly
+                      gosh do one, is tosser car boot knees.
                     </p>
                   </div>
                 </div>
               </div>
-              <div
-                className="tab-pane fade"
-                id="two"
-                role="tabpanel"
-                aria-labelledby="two-tab"
-              >
+              <div className="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
                 <div className="media">
                   <div className="media-left">
-                    <img
-                      src={require("../img/home-event/conference.jpg")}
-                      alt=""
-                    />
+                    <img src={require('../img/home-event/conference.jpg')} alt="" />
                     <a href="/#">
                       <i className="icon_clock_alt"></i>10:30 - 12:30 AM
                     </a>
@@ -191,18 +167,14 @@ class ScheduleTab extends Component {
                       by <a href="/#">Hanson Deck</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly
+                      gosh do one, is tosser car boot knees.
                     </p>
                   </div>
                 </div>
                 <div className="media">
                   <div className="media-left">
-                    <img
-                      src={require("../img/home-event/digital.jpg")}
-                      alt=""
-                    />
+                    <img src={require('../img/home-event/digital.jpg')} alt="" />
                     <a href="/#">
                       <i className="icon_clock_alt"></i>10:30 - 12:30 AM
                     </a>
@@ -216,18 +188,14 @@ class ScheduleTab extends Component {
                       by <a href="/#">Hanson Deck</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly
+                      gosh do one, is tosser car boot knees.
                     </p>
                   </div>
                 </div>
                 <div className="media">
                   <div className="media-left">
-                    <img
-                      src={require("../img/home-event/marketing.jpg")}
-                      alt=""
-                    />
+                    <img src={require('../img/home-event/marketing.jpg')} alt="" />
                     <a href="/#">
                       <i className="icon_clock_alt"></i>10:30 - 12:30 AM
                     </a>
@@ -241,18 +209,14 @@ class ScheduleTab extends Component {
                       by <a href="/#">Hanson Deck</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly
+                      gosh do one, is tosser car boot knees.
                     </p>
                   </div>
                 </div>
                 <div className="media">
                   <div className="media-left">
-                    <img
-                      src={require("../img/home-event/conference.jpg")}
-                      alt=""
-                    />
+                    <img src={require('../img/home-event/conference.jpg')} alt="" />
                     <a href="/#">
                       <i className="icon_clock_alt"></i>10:30 - 12:30 AM
                     </a>
@@ -266,25 +230,16 @@ class ScheduleTab extends Component {
                       by <a href="/#">Hanson Deck</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly
+                      gosh do one, is tosser car boot knees.
                     </p>
                   </div>
                 </div>
               </div>
-              <div
-                className="tab-pane fade"
-                id="three"
-                role="tabpanel"
-                aria-labelledby="three-tab"
-              >
+              <div className="tab-pane fade" id="three" role="tabpanel" aria-labelledby="three-tab">
                 <div className="media">
                   <div className="media-left">
-                    <img
-                      src={require("../img/home-event/marketing.jpg")}
-                      alt=""
-                    />
+                    <img src={require('../img/home-event/marketing.jpg')} alt="" />
                     <a href="/#">
                       <i className="icon_clock_alt"></i>10:30 - 12:30 AM
                     </a>
@@ -298,18 +253,14 @@ class ScheduleTab extends Component {
                       by <a href="/#">Hanson Deck</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly
+                      gosh do one, is tosser car boot knees.
                     </p>
                   </div>
                 </div>
                 <div className="media">
                   <div className="media-left">
-                    <img
-                      src={require("../img/home-event/conference.jpg")}
-                      alt=""
-                    />
+                    <img src={require('../img/home-event/conference.jpg')} alt="" />
                     <a href="/#">
                       <i className="icon_clock_alt"></i>10:30 - 12:30 AM
                     </a>
@@ -323,18 +274,14 @@ class ScheduleTab extends Component {
                       by <a href="/#">Hanson Deck</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly
+                      gosh do one, is tosser car boot knees.
                     </p>
                   </div>
                 </div>
                 <div className="media">
                   <div className="media-left">
-                    <img
-                      src={require("../img/home-event/conference.jpg")}
-                      alt=""
-                    />
+                    <img src={require('../img/home-event/conference.jpg')} alt="" />
                     <a href="/#">
                       <i className="icon_clock_alt"></i>10:30 - 12:30 AM
                     </a>
@@ -348,18 +295,14 @@ class ScheduleTab extends Component {
                       by <a href="/#">Hanson Deck</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly
+                      gosh do one, is tosser car boot knees.
                     </p>
                   </div>
                 </div>
                 <div className="media">
                   <div className="media-left">
-                    <img
-                      src={require("../img/home-event/digital.jpg")}
-                      alt=""
-                    />
+                    <img src={require('../img/home-event/digital.jpg')} alt="" />
                     <a href="/#">
                       <i className="icon_clock_alt"></i>10:30 - 12:30 AM
                     </a>
@@ -373,9 +316,8 @@ class ScheduleTab extends Component {
                       by <a href="/#">Hanson Deck</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Lost the plot lurgy on your bike mate Oxford hanky panky blow off haggle golly
+                      gosh do one, is tosser car boot knees.
                     </p>
                   </div>
                 </div>

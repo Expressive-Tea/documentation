@@ -1,49 +1,45 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import FooterData from '../Footer/FooterData';
 
 class Teamitem extends Component {
-    render(){
-        var {teamImage, memberN, memberd, teamImageUrl, socialNetworks}= this.props;
-        return(
-            <div className="ex_team_item">
-                {
-                    teamImage && (
-                        <img src={require ("../../../static/img/teams/" + teamImage).default} alt="team"/>
-                    )
-                }
+  render() {
+    var { teamImage, memberN, memberd, teamImageUrl, socialNetworks } = this.props;
+    return (
+      <div className="ex_team_item">
+        {teamImage && (
+          <img src={require('../../../static/img/teams/' + teamImage).default} alt="team" />
+        )}
 
-                {
-                    teamImageUrl && (
-                        <img src={teamImageUrl} alt="team"/>
-                    )
-                }
+        {teamImageUrl && <img src={teamImageUrl} alt="team" />}
 
-                <div className="team_content">
-                    <a href=".#">
-                        <h3 className="f_p f_size_16 f_600 t_color3">{memberN}</h3>
+        <div className="team_content">
+          <a href=".#">
+            <h3 className="f_p f_size_16 f_600 t_color3">{memberN}</h3>
+          </a>
+          <h5>{memberd}</h5>
+        </div>
+        <div className="hover_content">
+          <div className="n_hover_content">
+            <ul className="list-unstyled">
+              {(socialNetworks || []).map((item) => {
+                return (
+                  <li key={item.id}>
+                    <a href={item.url}>
+                      <i className={`${item.icon}`}></i>
                     </a>
-                    <h5>{memberd}</h5>
-                </div>
-                <div className="hover_content">
-                    <div className="n_hover_content">
-                        <ul className="list-unstyled">
-                            {
-                                (socialNetworks || []).map(item=>{
-                                    return(
-                                        <li key={item.id}><a href={item.url}><i className={`${item.icon}`}></i></a></li>
-                                    )
-                                })
-                            }
-                        </ul>
-                        <div className="br"></div>
-                        <a href=".#">
-                            <h3 className="f_p f_size_16 f_600 w_color">{memberN}</h3>
-                        </a>
-                        <h5>{memberd}</h5>
-                    </div>
-                </div>
-            </div>
-        )
-    }
+                  </li>
+                );
+              })}
+            </ul>
+            <div className="br"></div>
+            <a href=".#">
+              <h3 className="f_p f_size_16 f_600 w_color">{memberN}</h3>
+            </a>
+            <h5>{memberd}</h5>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 export default Teamitem;

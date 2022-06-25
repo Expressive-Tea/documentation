@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import { Map, GoogleApiWrapper, Marker } from "google-maps-react";
+import React, { Component } from 'react';
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
 export class MapContainer extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      stores: [{ lat: 47.49855629475769, lng: -122.14184416996333 }],
+      stores: [{ lat: 47.49855629475769, lng: -122.14184416996333 }]
     };
   }
 
@@ -18,9 +18,9 @@ export class MapContainer extends Component {
           id={index}
           position={{
             lat: store.latitude,
-            lng: store.longitude,
+            lng: store.longitude
           }}
-          onClick={() => console.log("You clicked me!")}
+          onClick={() => console.log('You clicked me!')}
         />
       );
     });
@@ -28,8 +28,8 @@ export class MapContainer extends Component {
 
   render() {
     const mapStyles = {
-      width: "100%",
-      height: "100%",
+      width: '100%',
+      height: '100%'
     };
     return (
       <section className="contact_map">
@@ -47,5 +47,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyBCB4y0SztfLo236n4JECwTvIQd-VecF2Y",
+  apiKey: 'AIzaSyBCB4y0SztfLo236n4JECwTvIQd-VecF2Y'
 })(MapContainer);

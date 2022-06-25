@@ -4,7 +4,9 @@ slug: /interfaces-types/interfaces
 sidebar_label: Interfaces
 sidebar_position: 1
 ---
+
 ## IDynamicObject
+
 ```typescript
 export interface IDynamicObject {
   [key: string]: any;
@@ -12,6 +14,7 @@ export interface IDynamicObject {
 ```
 
 ## ExpressiveTeaApplication
+
 ```typescript
 export interface ExpressiveTeaApplication {
   application: Express;
@@ -21,6 +24,7 @@ export interface ExpressiveTeaApplication {
 ```
 
 ## ExpressiveTeaServerProps
+
 ```typescript
 export interface ExpressiveTeaServerProps {
   port?: number;
@@ -29,13 +33,16 @@ export interface ExpressiveTeaServerProps {
 ```
 
 ## ExpressiveTeaPluginProps
+
 ```typescript
 export interface ExpressiveTeaPluginProps {
   name: string;
   priority: number;
 }
 ```
+
 ## ExpressiveTeaModuleProps
+
 ```typescript
 export interface ExpressiveTeaModuleProps {
   controllers: any[];
@@ -68,8 +75,8 @@ export interface ExpressiveTeaDirective {
 }
 ```
 
-
 ## ExpressiveTeaHandlerOptions
+
 ```typescript
 export interface ExpressiveTeaHandlerOptions {
   verb: string;
@@ -81,14 +88,16 @@ export interface ExpressiveTeaHandlerOptions {
 ```
 
 ## ExpressiveTeaArgumentOptions
+
 ```typescript
 export interface ExpressiveTeaArgumentOptions {
   key: string | symbol;
   index: number;
   type: symbol;
-  arguments?: string | string [];
+  arguments?: string | string[];
 }
 ```
+
 ## ExpressiveTeaAnnotations
 
 ```typescript
@@ -99,6 +108,7 @@ export interface ExpressiveTeaAnnotations {
 ```
 
 ## ExpressiveTeaMiddlewareExtends
+
 ```typescript
 export interface ExpressiveTeaMiddlewareExtends {
   $middlewares?: ExpressMiddlewareHandler[];

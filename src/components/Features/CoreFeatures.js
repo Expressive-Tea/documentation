@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const CoreFeatures = () => {
   return (
@@ -17,17 +17,17 @@ const CoreFeatures = () => {
                 <div className="round_circle"></div>
                 <img
                   className="top_img p_absoulte"
-                  src={require("../../img/home-chat/pluse.png")}
+                  src={require('../../img/home-chat/pluse.png')}
                   alt=""
                 />
-                <img src={require("../../img/home-chat/chat.png")} alt="" />
+                <img src={require('../../img/home-chat/chat.png')} alt="" />
               </div>
               <a href=".#">
                 <h4>Simlify communications</h4>
               </a>
               <p>
-                Tidio lets you get all your live chat, e-mail, and Messenger
-                communication in one panel.
+                Tidio lets you get all your live chat, e-mail, and Messenger communication in one
+                panel.
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@ const CoreFeatures = () => {
                 <div className="round_circle two"></div>
                 <img
                   className="top_img p_absoulte"
-                  src={require("../../img/home-chat/triangle.png")}
+                  src={require('../../img/home-chat/triangle.png')}
                   alt=""
                 />
                 <img src={require('../../img/home-chat/mobile.png')} alt="" />
@@ -46,8 +46,8 @@ const CoreFeatures = () => {
                 <h4>Quick Responce</h4>
               </a>
               <p>
-                Tidio lets you get all your live chat, e-mail, and Messenger
-                communication in one panel.
+                Tidio lets you get all your live chat, e-mail, and Messenger communication in one
+                panel.
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@ const CoreFeatures = () => {
                 <div className="round_circle three"></div>
                 <img
                   className="top_img p_absoulte"
-                  src={require("../../img/home-chat/box.png")}
+                  src={require('../../img/home-chat/box.png')}
                   alt=""
                 />
                 <img src={require('../../img/home-chat/book.png')} alt="" />
@@ -66,8 +66,8 @@ const CoreFeatures = () => {
                 <h4>Easy Report</h4>
               </a>
               <p>
-                Tidio lets you get all your live chat, e-mail, and Messenger
-                communication in one panel.
+                Tidio lets you get all your live chat, e-mail, and Messenger communication in one
+                panel.
               </p>
             </div>
           </div>

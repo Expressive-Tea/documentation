@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export default class Preloader extends Component {
   constructor(props) {
@@ -21,9 +21,15 @@ export default class Preloader extends Component {
   render() {
     return this.state.removed ? null : (
       <div id="preloader">
-        <div id="ctn-preloader" className={("ctn-preloader", {
-            loaded: this.state.loaded
-          })}>
+        <div
+          id="ctn-preloader"
+          className={
+            ('ctn-preloader',
+            {
+              loaded: this.state.loaded
+            })
+          }
+        >
           <div className="animation-preloader">
             <div className="spinner" />
             <div className="txt-loading">

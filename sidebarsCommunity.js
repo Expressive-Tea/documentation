@@ -1,7 +1,3 @@
 module.exports = {
-    docs: [
-        'support',
-        'contributing',
-        'team'
-    ],
+  docs: ['support', 'contributing', 'team']
 };
